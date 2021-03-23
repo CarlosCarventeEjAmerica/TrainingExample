@@ -1,0 +1,28 @@
+p {
+    color :red;
+}
+#intro{
+    color: purple;
+}
+.intro1{
+    color: royalblue;
+    background-color: black;
+}
+
+#intro .intro1 em{
+    color: cornsilk;
+    background-color: darkblue;
+}
+
+#ImFooter{
+    
+    display: table;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    color: dodgerblue;
+
+}
+#grad {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  }
