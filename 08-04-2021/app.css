@@ -1,0 +1,60 @@
+.Box{
+    margin: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    width: 300px;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: rgb(218, 8, 78);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(221, 221, 221);
+    color: rgba(2, 86, 155, 0.904);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(218, 8, 78);
+    color:blanchedalmond;
+  }
+  .footer{
+    text-align: center;
+    padding: 3px;
+    align-content: flex-end;
+    background-color: #333;
+    color: blanchedalmond;
+    bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+  }
+  .footer a{
+    color: blanchedalmond;
+  }
